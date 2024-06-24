@@ -25,14 +25,16 @@ The Double Super Factorial Calculator is designed to:
 3. Search for solutions where `n! = dsf(m)`.
 4. Utilize multi-threading to speed up the search process by leveraging multiple CPU cores.
 
+![image](https://github.com/geeknik/double-super-factorial-calculator/assets/466878/5f3116b9-5942-4992-a1e8-aa95a160294e)
+
 ## Installation
 
 To get started, clone the repository and install the required dependencies. Ensure you have Python 3.x and `gmpy2` installed.
 
 ```bash
-git clone https://github.com/yourusername/double-super-factorial-calculator.git
+git clone https://github.com/geeknik/double-super-factorial-calculator/
 cd double-super-factorial-calculator
-pip install -r requirements.txt
+pip install gmpy2
 ```
 
 ## Usage
@@ -40,7 +42,7 @@ pip install -r requirements.txt
 Run the main script to start the search for solutions:
 
 ```bash
-python main.py
+python3 dsf.py
 ```
 
 The script will start searching for solutions to `n! = dsf(m)` for `n > 10` and will continue indefinitely until stopped by the user (Ctrl+C).
